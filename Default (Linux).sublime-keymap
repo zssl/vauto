@@ -1,0 +1,6 @@
+[
+    { "keys": ["shift+f6"], "command": "vauto_inst" },
+    { "keys": ["shift+f7"], "command": "vauto_wire" },
+    { "keys": ["shift+f8"], "command": "vauto_head" },
+    { "keys": ["shift+f9"], "command": "vauto_tb" }
+]

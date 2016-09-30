@@ -1,0 +1,131 @@
+[
+    {
+        "id": "tools",
+        "caption": "Tools",
+        "children":
+        [
+            {
+                "id": "packages",
+                "caption": "Packages",
+                "children":
+                [
+                    {
+                        "id": "Verilog Automatic",
+                        "caption": "Verilog Automatic",
+                        "children":
+                        [
+                            {
+                                "caption": "Auto Instance",
+                                "command": "vauto_inst"
+                            },
+                            {
+                                "caption": "Auto Wire",
+                                "command": "vauto_wire"
+                            },
+                            {
+                                "caption": "Add File Header",
+                                "command": "vauto_head"
+                            },
+                            {
+                                "caption": "Auto Define",
+                                "command": "vauto_tb"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Verilog Automatic",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/vauto/Read.me"},
+                                "caption": "README"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/vauto/Verilog Automatic.sublime-settings"},
+                                "caption": "Settings - Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/vauto.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_file_settings",
+                                "caption": "Settings – Syntax Specific – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/vauto/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/vauto/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/vauto/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+]
